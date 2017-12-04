@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>百度图片-发现多彩世界</title>
+    <!--<link rel="stylesheet" href="css/iconfont.css"/>-->
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="icon" href="images/QQ图片20171019194426.png"/>
+</head>
+<body>
+<!--导航栏-->
+<div class="nav">
+    <ul>
+        <li><a href="">网页</a></li>
+        <li><a href="">新闻</a></li>
+        <li><a href="">贴吧</a></li>
+        <li><a href="">知道</a></li>
+        <li><a href="">音乐</a></li>
+        <li><a href="">图片</a></li>
+        <li><a href="">视频</a></li>
+        <li><a href="">地图</a></li>
+        <li><a href="">文库</a><span>|</span></li>
+        <li><a href="">百度首页</a></li>
+        <li><a href="">登录</a></li>
+        <li><a href="">注册</a></li>
+        <li><a href="">收藏本页</a></li>
+    </ul>
+</div>
+<div class="main">
+    <img src="images/timg.jpg" alt=""/>
+    <div class="search">
+        <div class="beijing">
+            <img src="images/index.png" alt=""/>
+        </div>
+        <input type="text"/>
+        <button>百度一下</button>
+        <div class="xiangji">
+            <img src="images/camera_new_off_a552294.png" alt=""/>
+        </div>
+    </div>
+    <div class="tupian">
+        <div>
+            <div class="tupian_1">
+                <img src="images/weijuchiluntu.jpg" alt=""/>
+                <p>微距离</p>
+            </div>
+            <div class="tupian_1">
+                <img src="images/touxixiaoqinx.jpg" alt=""/>
+                <p>头像</p>
+            </div>
+        </div>
+        <div>
+            <div class="tupian_1">
+                <img src="images/yuanjihuasy.png" alt=""/>
+                <p>百度计划</p>
+            </div>
+            <div class="tupian_1">
+                <img src="images/xiaoqingxbanq.jpg" alt=""/>
+                <p>小清新</p>
+            </div>
+        </div>
+        <div>
+            <div class="tupian_1">
+                <img src="images/luhan.png" alt=""/>
+                <p>鹿晗</p>
+            </div>
+            <div class="tupian_1">
+                <img src="images/fengjingxiaotu.jpg" alt=""/>
+                <p>风景</p>
+            </div>
+        </div>
+        <div>
+            <div class="tupian_1">
+                <img src="images/gaoqingdonmanxiaotuzis.jpg" alt=""/>
+                <p>高清动漫</p>
+            </div>
+            <div class="tupian_1">
+                <img src="images/bizhi112.png" alt=""/>
+                <p>最美壁纸</p>
+            </div>
+        </div>
+        <div>
+            <div class="tupian_1">
+                <img src="images/duoroubanqq.jpg" alt=""/>
+                <p>多肉植物</p>
+            </div>
+            <div class="tupian_1">
+                <img src="images/banquantupian801.png" alt=""/>
+                <p>图片版权合作平台</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tiaochu">
+    <img src="images/sj-1.png" alt="" class="s"/>
+</div>
+<div class="tiaochu_1">
+   <p>今日封面图来自风光摄影师飘漂土狼，他是Getty <br/>Images签约摄影师；中国国 <br/>家地理网专栏作者；美国 <br/>IStock签约摄影师，查看他 <br/>的更多作品>></p>
+</div>
+<div class="foot">
+    <ul class="left">
+        <li>背景图片来源:摄影师飘漂土狼</li>
+    </ul>
+    <ul class="right">
+        <li>2017Baidu使用百度前必读 <span>|</span></li>
+        <li>高级搜索  <span>|</span> </li>
+        <li>帮助  <span>|</span> </li>
+    </ul>
+</div>
+<script>
+    var tiaochu=document.querySelector('.tiaochu');
+    var tiaochu_1=document.querySelector('.tiaochu_1');
+    var sh=document.querySelector('.s');
+    tiaochu.onmouseenter=function(){
+        sh.style.backgroundColor='none';
+        tiaochu_1.style.display='block';
+    };
+    tiaochu.onmouseleave=function(){
+        sh.style.display='block';
+    tiaochu_1.style.display='none';
+    };
+
+</script>
+</body>
+</html>
